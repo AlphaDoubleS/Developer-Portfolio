@@ -1,53 +1,39 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Image, { StaticImageData } from 'next/image';
 
 export const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="dark-bg">
       <div className="flex">
         <div className="flex-full">
           <AboutCard
-            title="UX/UI Design"
+            title={t('about_page.design')}
             icon="/icons/design.svg"
-            description="I create design  products with unique ideas."
+            description={t('about_page.design_text')}
             projects={7}
           />
           <AboutCard
-            title="Web Design"
+            title={t('about_page.development')}
             icon="/icons/code.svg"
-            description="I develop Front-End with coding super smooth."
+            description={t('about_page.development_text')}
             projects={10}
-          />
-          <AboutCard
-            title="Mobile"
-            icon="/icons/phone.svg"
-            description="I develop cross-platform mobile applications."
-            projects={7}
           />
         </div>
 
         <div className="flex-full about-text">
-          <h5 className="gray">Introduce</h5>
-          <h1 className="white">Hello, I&#39;m Skander Blaiti</h1>
-          <h3 className="white">Design is not just what it looks like. Design is how it works!</h3>
+          <h5 className="gray">{t('about_page.intro')}</h5>
+          <h1 className="white">{t('about_page.title')}</h1>
+          <h3 className="white">{t('about_page.subtitle')}</h3>
           <p className="gray">
-            I have proceeded my dream to be a developer as it has been my lifelong ambition. I am a
-            talented Front-End developer with a UI/UX design background. During my 4 years of work
-            as a freelancer, I had the opportunity to enhance my expertise by collaborating with
-            different companies and by creating useful content for both business and customer use.
+            {t('about_page.text_one')}
             <br />
-            <br />I am naturally persevered, self-confident, quietly curios, innovative and
-            constantly challenging my skills.
+            <br />
+            {t('about_page.text_two')}
           </p>
         </div>
-      </div>
-
-      <div className="flex partners justify-space">
-        <Image src="/images/partners/wallety.png" height={45} width={180} alt="wallety" />
-        <Image src="/images/partners/artisty.png" height={45} width={180} alt="artisty" />
-        <Image src="/images/partners/khedma-lik.png" height={45} width={180} alt="khedma-lik" />
-        <Image src="/images/partners/directy.png" height={45} width={180} alt="directy" />
-        <Image src="/images/partners/telefy.png" height={45} width={180} alt="telefy" />
       </div>
     </section>
   );

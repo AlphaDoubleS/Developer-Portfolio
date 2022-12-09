@@ -34,7 +34,7 @@ p {
   color: #777777;
 }
 .green {
-  color: #4dba87;
+  color: #4dadba;
 }
 .flex {
   display: flex;
@@ -57,7 +57,7 @@ button {
   color: #2d2e32;
   font-size: 0.8rem;
   font-weight: 600;
-  background-color: #4dba87;
+  background-color: #4dadba;
   cursor: pointer;
 }
 
@@ -75,12 +75,16 @@ nav ul li {
   font-size: 0.9rem;
   font-weight: 600;
 }
+nav ul select {
+  margin-left: 3rem;
+}
+
 .header {
   justify-content: space-between;
   padding: 1.1rem 5rem 0rem 5rem;
 }
 .header h1 {
-  margin: auto;
+  width: 70%;
   font-size: 3rem;
   font-weight: 500;
 }
@@ -92,6 +96,7 @@ nav ul li {
 }
 .header button {
   cursor: text;
+  margin-right: 1.5rem;
   margin-bottom: 1.5rem;
 }
 .header a {
@@ -142,9 +147,6 @@ nav ul li {
   font-weight: 500;
   font-size: 1rem;
   text-align: justify;
-}
-.partners {
-  padding-top: 5rem;
 }
 
 /* Footer */

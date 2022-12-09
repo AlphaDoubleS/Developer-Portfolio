@@ -6,9 +6,16 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Blaiti - Frontend Developer</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="author" content="Skander Blaiti" />
+        <title>Portfolio Laura Janssens</title>
+        <link rel="icon" href="/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+
+        <meta name="theme-color" content="#ffffff"></meta>
+        <meta name="author" content="Laura Janssens" />
         <meta name="keywords" content="ReactJS, NextJS" />
         <meta
           name="description"
@@ -18,23 +25,20 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#2D2E32" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:site_name" content="Blaiti - Frontend Developer" />
+        <meta property="og:site_name" content="Portfolio Laura Janssens" />
         <meta property="og:locale" content="en_GB" />
-        <title data-rh="true">Blaiti - Frontend Developer</title>
+        <title data-rh="true">Portfolio Laura Janssens</title>
         <meta data-rh="true" property="og:type" content="website" />
-        <meta data-rh="true" property="og:title" content="Blaiti - Frontend Developer" />
-        <meta data-rh="true" property="og:image" content="/images/blaiti.png" />
+        <meta data-rh="true" property="og:title" content="Portfolio Laura Janssens" />
+        <meta data-rh="true" property="og:image" content="/images/laura.png" />
       </Head>
 
-      {/* Header */}
       <Header />
 
       <main>
-        {/* About */}
         <About />
       </main>
 
-      {/* Footer */}
       <Footer />
     </>
   );

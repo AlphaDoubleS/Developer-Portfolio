@@ -1,22 +1,25 @@
 import React from 'react';
-import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 import { NavBar } from 'components/navbar';
+import Image from 'next/image';
 
 export const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <header>
       <NavBar />
       <div className="header flex light-bg">
         <div>
-          <button>Front-End Developer</button>
-          <h1 className="white">Talk is cheap.</h1>
-          <h1 className="white">Show me the code!</h1>
-          <p className="gray">I design and code beautiful simple things, and I love what I do.</p>
+          <button>{t('header.designer')}</button>
+          <button>{t('header.developer')}</button>
+          <h1 className="white">{t('header.title')}</h1>
+          <p className="gray">{t('header.text')}</p>
           <a className="green" href="mailto:contact@blaiti.com">
-            Let&#39;s chat!
+            {t('header.cta')}
           </a>
         </div>
-        <Image src="/images/blaiti.png" width={463} height={513} alt="blaiti" />
+        <Image src="/images/laura.png" width={463} height={513} alt="laura" />
       </div>
     </header>
   );
