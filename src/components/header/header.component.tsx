@@ -11,11 +11,13 @@ export const Header = () => {
       <NavBar />
       <div className="header flex light-bg">
         <div>
-          <button>{t('header.designer')}</button>
-          <button>{t('header.developer')}</button>
+          <div className="buttons">
+            <button>{t('header.designer')}</button>
+            <button>{t('header.developer')}</button>
+          </div>
           <h1 className="white">{t('header.title')}</h1>
           <p className="gray">{t('header.text')}</p>
-          <a className="green" href="mailto:contact@blaiti.com">
+          <a className="blue" href="mailto:lauraj@hotmail.be">
             {t('header.cta')}
           </a>
         </div>

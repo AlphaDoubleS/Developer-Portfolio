@@ -1,0 +1,33 @@
+%heading-style-generic {
+  margin: 0;
+}
+
+h1 {
+  @extend %heading-style-generic;
+  font-size: clamp(2.2rem, -0.875rem + 8.333333vw, 3rem);
+}
+
+h2 {
+  @extend %heading-style-generic;
+  font-size: clamp(1.8rem, -0.875rem + 8.333333vw, 2rem);
+}
+
+h3 {
+  @extend %heading-style-generic;
+  font-size: clamp(1.25rem, -0.875rem + 8.333333vw, 1.5rem);
+}
+
+h4 {
+  @extend %heading-style-generic;
+  font-size: clamp(1.2rem, -0.875rem + 8.333333vw, 1.25rem);
+}
+
+h5 {
+  @extend %heading-style-generic;
+  font-size: clamp(1.1rem, -0.875rem + 8.333333vw, 1.125rem);
+}
+
+h6 {
+  @extend %heading-style-generic;
+  font-size: 1rem;
+}

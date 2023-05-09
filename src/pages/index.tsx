@@ -1,4 +1,4 @@
-import { About, Footer, Header } from 'components';
+import { About, Footer, Header, Software } from 'components';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <meta name="keywords" content="ReactJS, NextJS" />
         <meta
           name="description"
-          content="I am a talented Front-End developer with a UI/UX design background."
+          content="I am a talented Front-end developer with a UI/UX design background."
         />
         <meta charSet="UTF-8" />
         <meta name="theme-color" content="#2D2E32" />
@@ -37,6 +37,7 @@ const Home: NextPage = () => {
 
       <main>
         <About />
+        <Software />
       </main>
 
       <Footer />

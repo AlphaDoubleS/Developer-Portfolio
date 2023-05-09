@@ -7,11 +7,12 @@
   },
   "navbar": {
     "home": "< Home />",
-    "about": "Over mij"
+    "about": "Over mij",
+    "software": "Software"
   },
   "header": {
     "designer": "UX/UI Developer",
-    "developer": "Front-End Developer",
+    "developer": "Front-end Developer",
     "title": "Het duurt 7 seconden om goede indruk te maken",
     "text": "Ik ontwerp en codeer mooie eenvoudige dingen, en ik hou van wat ik doe.",
     "cta": "Laten we chatten!"
@@ -20,11 +21,11 @@
     "design": "UX/UI Design",
     "design_text": "Ik maak designproducten met unieke ideeën.",
     "development": "Web Design",
-    "development_text": "Ik ontwikkel Front-End met super smooth code.",
+    "development_text": "Ik ontwikkel Front-end met super smooth code.",
     "intro": "Voorstellen",
     "title": "Hallo, ik ben Laura Janssens",
     "subtitle": "Design is niet alleen hoe het eruit ziet. Design is hoe het werkt!",
-    "text_one": "Ik heb mijn droom om webdesigner en ontwikkelaar te worden voortgezet, aangezien het mijn levenslange ambitie is geweest. Ik ben een junior Front-End developer met een UI/UX design achtergrond. Ik had een geweldige ervaring van 1 jaar bij Take The Lead waar ik zoveel heb geleerd. Nu ben ik op zoek naar de volgende gelegenheid om mijn vaardigheden te verbeteren en te tonen.",
+    "text_one": "Ik heb mijn droom om webdesigner en ontwikkelaar te worden voortgezet, aangezien het mijn levenslange ambitie is geweest. Ik ben een junior Front-end developer met een UI/UX design achtergrond. Ik had een geweldige ervaring van 1 jaar bij Take The Lead waar ik zoveel heb geleerd. Nu ben ik op zoek naar de volgende gelegenheid om mijn vaardigheden te verbeteren en te tonen.",
     "text_two": "Ik ben een teamspeler, gefocust, stressbestendig en daag constant mijn vaardigheden uit."
   }
 }

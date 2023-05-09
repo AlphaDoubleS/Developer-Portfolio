@@ -1,0 +1,70 @@
+nav {
+  padding: 1.1rem 5rem;
+}
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+nav ul {
+  column-gap: 3rem;
+}
+nav ul li {
+  list-style-type: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 1.1rem 5rem 0rem 5rem;
+}
+.header h1 {
+  width: 70%;
+  font-weight: 500;
+}
+.header p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.header .buttons {
+  display: inline-flex;
+  column-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  button {
+    cursor: text;
+  }
+}
+.header a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem 2rem;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  nav ul,
+  nav ul li,
+  .active {
+    display: none;
+  }
+  .header {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  section {
+    padding: 1rem 2rem;
+  }
+
+  .header .buttons {
+    flex-direction: column;
+    row-gap: 0.6rem;
+  }
+}

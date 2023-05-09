@@ -1,0 +1,24 @@
+a,
+.link-blue {
+  color: $color-blue;
+
+  &:hover {
+    color: $color-blue-dark;
+  }
+}
+
+.link-white {
+  color: $color-white;
+
+  &:hover {
+    color: $color-blue;
+  }
+
+  a {
+    color: $color-white;
+
+    &:hover {
+      color: $color-blue;
+    }
+  }
+}

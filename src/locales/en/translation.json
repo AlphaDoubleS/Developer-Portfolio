@@ -7,11 +7,12 @@
   },
   "navbar": {
     "home": "< Home />",
-    "about": "About me"
+    "about": "About me",
+    "software": "Software"
   },
   "header": {
     "designer": "UX/UI Developer",
-    "developer": "Front-End Developer",
+    "developer": "Front-end Developer",
     "title": "It takes 7 seconds to make a good impression",
     "text": "I design and code beautiful simple things, and I love what I do.",
     "cta": "Let's chat!"
@@ -20,11 +21,11 @@
     "design": "UX/UI Design",
     "design_text": "I create design products with unique ideas.",
     "development": "Web Design",
-    "development_text": "I develop Front-End with super smooth coding.",
+    "development_text": "I develop Front-end with super smooth coding.",
     "intro": "Introduce",
     "title": "Hello, I'm Laura Janssens",
     "subtitle": "Design is not just what it looks like. Design is how it works!",
-    "text_one": "I have proceeded my dream to be a web designer and developer as it has been my lifelong ambition. I am a junior Front-End developer with a UI/UX design background. I had a 1 year amazing expierce at Take The Lead were I learned so much. Now I'm looking for the next oppurtunity to improve an show-off my skills.",
+    "text_one": "I have proceeded my dream to be a web designer and developer as it has been my lifelong ambition. I am a junior Front-end developer with a UI/UX design background. I had a 1 year amazing expierce at Take The Lead were I learned so much. Now I'm looking for the next oppurtunity to improve an show-off my skills.",
     "text_two": "I am a team player, focused, resistant to stress and constantly challenging my skills."
   }
 }

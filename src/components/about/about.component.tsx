@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Image, { StaticImageData } from 'next/image';
+import CodeIcon from '@mui/icons-material/Code';
+import ArchitectureIcon from '@mui/icons-material/Architecture';
 
 export const About = () => {
   const { t } = useTranslation();
@@ -9,23 +10,28 @@ export const About = () => {
     <section id="about" className="dark-bg">
       <div className="flex">
         <div className="flex-full">
-          <AboutCard
-            title={t('about_page.design')}
-            icon="/icons/design.svg"
-            description={t('about_page.design_text')}
-            projects={7}
-          />
-          <AboutCard
-            title={t('about_page.development')}
-            icon="/icons/code.svg"
-            description={t('about_page.development_text')}
-            projects={10}
-          />
+          <div className="light-bg about-card">
+            <div className="flex justify-space heading">
+              <h3 className="blue">{t('about_page.design')}</h3>
+              <ArchitectureIcon className="blue" />
+            </div>
+            <p className="white">{t('about_page.design_text')}</p>
+            <span className="gray">7 projects</span>
+          </div>
+
+          <div className="light-bg about-card">
+            <div className="flex justify-space heading">
+              <h3 className="blue">{t('about_page.development')}</h3>
+              <CodeIcon className="blue" />
+            </div>
+            <p className="white">{t('about_page.development_text')}</p>
+            <span className="gray">10 projects</span>
+          </div>
         </div>
 
         <div className="flex-full about-text">
           <h5 className="gray">{t('about_page.intro')}</h5>
-          <h1 className="white">{t('about_page.title')}</h1>
+          <h2 className="white">{t('about_page.title')}</h2>
           <h3 className="white">{t('about_page.subtitle')}</h3>
           <p className="gray">
             {t('about_page.text_one')}
@@ -38,23 +44,3 @@ export const About = () => {
     </section>
   );
 };
-
-type Props = {
-  title: string;
-  icon: string | StaticImageData;
-  description: string;
-  projects: number;
-};
-
-function AboutCard({ title, icon, description, projects }: Props) {
-  return (
-    <div className="light-bg about-card">
-      <div className="flex justify-space">
-        <h3 className="green">{title}</h3>
-        <Image src={icon} width={28} height={28} alt={title} />
-      </div>
-      <p className="white">{description}</p>
-      <span className="gray">{projects.toString()} projects</span>
-    </div>
-  );
-}

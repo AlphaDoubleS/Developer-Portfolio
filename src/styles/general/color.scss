@@ -1,0 +1,35 @@
+$color-white: #ffffff;
+$color-blue: #4dadba;
+$color-blue-dark: #38939f;
+
+$color-grey: #777777;
+$color-grey-dark: #2d2e32;
+$color-grey-darker: #25262a;
+
+.dark-bg {
+  background-color: $color-grey-darker;
+}
+
+.light-bg {
+  background-color: $color-grey-dark;
+}
+
+.gray {
+  color: $color-grey;
+}
+
+.white {
+  color: $color-white;
+
+  a {
+    color: $color-white;
+
+    &:hover {
+      color: $color-blue;
+    }
+  }
+}
+
+.blue {
+  color: $color-blue;
+}
