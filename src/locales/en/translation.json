@@ -8,7 +8,7 @@
   "navbar": {
     "home": "< Home />",
     "about": "About me",
-    "software": "Software"
+    "software": "Softwares"
   },
   "header": {
     "designer": "UX/UI Developer",
@@ -17,7 +17,7 @@
     "text": "I design and code beautiful simple things, and I love what I do.",
     "cta": "Let's chat!"
   },
-  "about_page": {
+  "about_block": {
     "design": "UX/UI Design",
     "design_text": "I create design products with unique ideas.",
     "development": "Web Design",
@@ -27,5 +27,9 @@
     "subtitle": "Design is not just what it looks like. Design is how it works!",
     "text_one": "I have proceeded my dream to be a web designer and developer as it has been my lifelong ambition. I am a junior Front-end developer with a UI/UX design background. I had a 1 year amazing expierce at Take The Lead were I learned so much. Now I'm looking for the next oppurtunity to improve an show-off my skills.",
     "text_two": "I am a team player, focused, resistant to stress and constantly challenging my skills."
+  },
+  "software_block": {
+    "title": "Softwares I know",
+    "text": "Here are a couple of softwares I have learned to work with over the years."
   }
 }

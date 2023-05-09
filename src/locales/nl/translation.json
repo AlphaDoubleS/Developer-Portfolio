@@ -8,7 +8,7 @@
   "navbar": {
     "home": "< Home />",
     "about": "Over mij",
-    "software": "Software"
+    "software": "Softwares"
   },
   "header": {
     "designer": "UX/UI Developer",
@@ -17,7 +17,7 @@
     "text": "Ik ontwerp en codeer mooie eenvoudige dingen, en ik hou van wat ik doe.",
     "cta": "Laten we chatten!"
   },
-  "about_page": {
+  "about_block": {
     "design": "UX/UI Design",
     "design_text": "Ik maak designproducten met unieke ideeën.",
     "development": "Web Design",
@@ -27,5 +27,9 @@
     "subtitle": "Design is niet alleen hoe het eruit ziet. Design is hoe het werkt!",
     "text_one": "Ik heb mijn droom om webdesigner en ontwikkelaar te worden voortgezet, aangezien het mijn levenslange ambitie is geweest. Ik ben een junior Front-end developer met een UI/UX design achtergrond. Ik had een geweldige ervaring van 1 jaar bij Take The Lead waar ik zoveel heb geleerd. Nu ben ik op zoek naar de volgende gelegenheid om mijn vaardigheden te verbeteren en te tonen.",
     "text_two": "Ik ben een teamspeler, gefocust, stressbestendig en daag constant mijn vaardigheden uit."
+  },
+  "software_block": {
+    "title": "Softwares",
+    "text": "Hier zijn een paar softwares waarmee ik de komende jaren heb mee leren werken."
   }
 }

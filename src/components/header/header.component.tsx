@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { NavBar } from 'components/navbar';
-import Image from 'next/image';
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -21,7 +20,7 @@ export const Header = () => {
             {t('header.cta')}
           </a>
         </div>
-        <Image src="/images/laura.png" width={463} height={513} alt="laura" />
+        <img src="/images/laura.svg" alt="Laura Janssens" />
       </div>
     </header>
   );
