@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import Image from 'next/image';
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -12,7 +11,8 @@ export const Footer = () => {
   return (
     <footer className="dark-bg flex justify-space">
       <span className="white">
-        Copyright © {year} <Link href="/">{t('name')}</Link> - All rights reserved.
+        {t('footer.copyright')} {year} <Link href="/">{t('name')}</Link>
+        {t('footer.rights')}
       </span>
       <ul className="flex">
         <li>

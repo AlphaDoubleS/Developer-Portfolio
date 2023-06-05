@@ -7,7 +7,6 @@ export const Header = () => {
 
   return (
     <header>
-      <NavBar />
       <div className="header flex light-bg">
         <div>
           <div className="buttons">

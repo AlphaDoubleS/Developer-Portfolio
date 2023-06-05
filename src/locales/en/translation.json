@@ -8,7 +8,8 @@
   "navbar": {
     "home": "< Home />",
     "about": "About me",
-    "software": "Softwares"
+    "software": "Softwares",
+    "projects": "Projects"
   },
   "header": {
     "designer": "UX/UI Developer",
@@ -31,5 +32,9 @@
   "software_block": {
     "title": "Softwares I know",
     "text": "Here are a couple of softwares I have learned to work with over the years."
+  },
+  "footer": {
+    "copyright": "Copyright © ",
+    "rights": " - All rights reserved."
   }
 }
