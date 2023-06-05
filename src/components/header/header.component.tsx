@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { NavBar } from 'components/navbar';
+import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -15,8 +15,9 @@ export const Header = () => {
           </div>
           <h1 className="white">{t('header.title')}</h1>
           <p className="gray">{t('header.text')}</p>
-          <a className="blue" href="mailto:lauraj@hotmail.be">
+          <a className="blue link-with-icon link-animation" href="mailto:lauraj@hotmail.be">
             {t('header.cta')}
+            <ArrowCircleRightOutlinedIcon />
           </a>
         </div>
         <img src="/images/laura.svg" alt="Laura Janssens" />

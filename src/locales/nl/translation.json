@@ -9,7 +9,8 @@
     "home": "< Home />",
     "about": "Over mij",
     "software": "Softwares",
-    "projects": "Projecten"
+    "projects": "Projecten",
+    "resume": "CV"
   },
   "header": {
     "designer": "UX/UI Developer",
@@ -21,7 +22,7 @@
   "about_block": {
     "design": "UX/UI Design",
     "design_text": "Ik maak designproducten met unieke ideeën.",
-    "development": "Web Design",
+    "development": "Web Development",
     "development_text": "Ik ontwikkel Front-end met super smooth coding.",
     "intro": "Voorstellen",
     "title": "Hallo, ik ben Laura Janssens",

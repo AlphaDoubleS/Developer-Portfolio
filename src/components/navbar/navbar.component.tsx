@@ -13,6 +13,7 @@ export const NavBar = () => {
     { title: t('navbar.about'), path: '/#about' },
     { title: t('navbar.software'), path: '/#software' },
     { title: t('navbar.projects'), path: '/projects-overview' },
+    { title: t('navbar.resume'), path: '/resume' },
   ];
 
   const router = useRouter();
@@ -31,7 +32,10 @@ export const NavBar = () => {
         {navLinks.map(link => (
           <li key={link.title}>
             <Link href={link.path} passHref>
-              <a className={router.pathname === link.path ? 'link-active' : 'link-white'}>
+              <a
+                className={
+                  router.pathname === link.path ? 'navlink-active' : 'link-white navlink-animation'
+                }>
                 {link.title}
               </a>
             </Link>
