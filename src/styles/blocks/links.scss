@@ -14,3 +14,8 @@ a,
     color: $color-blue;
   }
 }
+
+.link-active {
+  color: $color-blue;
+  pointer-events: none;
+}
