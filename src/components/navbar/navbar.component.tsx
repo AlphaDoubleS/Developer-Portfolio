@@ -21,12 +21,16 @@ export const NavBar = () => {
         <li>
           <Link href="/">{t('navbar.home')}</Link>
         </li>
-        <li className="link-white">
-          <Link href="#about">{t('navbar.about')}</Link>
+        <li>
+          <Link href="/#about">{t('navbar.about')}</Link>
         </li>
-        <li className="link-white">
-          <Link href="#software">{t('navbar.software')}</Link>
+        <li>
+          <Link href="/#software">{t('navbar.software')}</Link>
         </li>
+        <li>
+          <Link href="/projects-overview">{t('navbar.projects')}</Link>
+        </li>
+
         <div className="switch">
           <select className="select" name="language" onChange={onChange}>
             <option value="en">{t('language.en')}</option>
